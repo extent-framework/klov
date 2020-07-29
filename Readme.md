@@ -33,7 +33,7 @@ docker-compose up
 version: '2'
 services:
     klov:
-        image: anshooarora/klov:1.0
+        image: anshooarora/klov:1.0.1
         container_name: klov
         environment:
             - SPRING_DATA_MONGODB_URI=mongodb://{host}:{port}
