@@ -6,4 +6,4 @@ services:
         environment:
             - SPRING_DATA_MONGODB_URI=mongodb://{host}:{port}
         ports:
-            - 80:80
+            - 90:90
